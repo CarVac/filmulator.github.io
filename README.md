@@ -9,4 +9,4 @@ Building instructions:
 * `git add` the appropriate files
 * `git commit` to master branch
 * `git push`
-* `git push origin \`git subtree split --prefix public master\`:gh-pages --force`
+* ``git push origin `git subtree split --prefix public master`:gh-pages --force``
