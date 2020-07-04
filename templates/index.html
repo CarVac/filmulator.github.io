@@ -14,7 +14,6 @@
       <link rel="stylesheet" href="{{ get_url(path="print.css", trailing_slash=false) }}" media="print">
       <link rel="stylesheet" href="{{ get_url(path="poole.css", trailing_slash=false) }}">
       <link rel="stylesheet" href="{{ get_url(path="hyde.css", trailing_slash=false) }}">
-      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Abril+Fatface">
 
       {% if config.generate_feed %}
         <link rel="alternate" type={% if config.feed_filename == "atom.xml" %}"application/atom+xml"{% else %}"application/rss+xml"{% endif %} title="RSS" href="{{ get_url(path=config.feed_filename) | safe }}">
@@ -30,7 +29,7 @@
                 <div class="container {% if config.extra.hyde_sticky %}sidebar-sticky{% endif %}">
                     <div class="sidebar-about">
                         {% block sidebar_about %}
-                            <a href="{{ config.base_url }}"><img class="marginauto" src="/images/filmulator512icon.png" alt = "Filmulator icon" class="center"></a>
+                            <a href="{{ config.base_url }}"><img src="/images/filmulator512icon.png" alt = "Filmulator icon"></a>
                             <!--<a href="{{ config.base_url }}"><h1>{{ config.title }}</h1></a>-->
                             {% if config.description %}
                             <p class="lead">{{config.description}}</p>
