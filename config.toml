@@ -22,5 +22,6 @@ hyde_links = [
     {url = "/about", name = "About"},
     {url = "/download", name = "Download"},
     {url = "https://discuss.pixls.us/filmulator", name = "Forum"},
+    {url = "https://github.com/CarVac/filmulator-gui/wiki", name = "Documentation"},
     {url = "https://github.com/CarVac/filmulator-gui", name = "GitHub project"},
 ]
