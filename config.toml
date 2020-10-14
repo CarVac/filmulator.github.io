@@ -19,8 +19,8 @@ description = "A simple raw photo editor based on the process of developing film
 theme = "hyde"
 hyde_theme = "theme-base-09"
 hyde_links = [
-    {url = "/about", name = "About"},
-    {url = "/download", name = "Download"},
+    {url = "/about/", name = "About"},
+    {url = "/download/", name = "Download"},
     {url = "https://discuss.pixls.us/filmulator", name = "Forum"},
     {url = "https://github.com/CarVac/filmulator-gui/wiki", name = "Documentation"},
     {url = "https://github.com/CarVac/filmulator-gui", name = "GitHub project"},
