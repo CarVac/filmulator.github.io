@@ -9,12 +9,7 @@ Here's an example of Filmulator recovering highlights and lightening the shadows
 ![original image](/images/photos/IMG_0666.thumb-small.jpg)
 ![Filmulated image](/images/photos/IMG_0666-output-small.jpg) 
 
-In the following example, Filmulator easily recovers clipped highlights in a natural manner.
-
-![original image](/images/photos/IMG_5163.thumb-small.jpg)
-![Filmulated image](/images/photos/IMG_5163-output-small.jpg) 
-
-It can easily fixed clipped highlights even on skin.
+It can easily fix clipped highlights even on skin.
 
 ![original image](/images/photos/R0000822-small.jpg)
 ![Filmulated image](/images/photos/R0000822-output-small.jpg)
