@@ -26,13 +26,8 @@ This example shows Filmulator enhancing colors in a natural manner without induc
 
 It can also boost local contrast in scenes while reducing global contrast.
 
-![original image](/images/photos/IMG_0866.thumb-small.jpg)
-![Filmulated image](/images/photos/IMG_0866-output-small.jpg) 
-
-This can be used to cut through haze.
-
-![original image](/images/photos/P6220039_rCnnq8S.thumb-small.jpg)
-![Filmulated image](/images/photos/P6220039_rCnnq8S-output-small.jpg)
+![original image](/images/photos/IMG_0501-output_low-small.jpg)
+![Filmulated image](/images/photos/IMG_0501-output_high-small.jpg) 
 
 Finally, it can do all of the above, recovering highlights and shadows while enhancing colors and contrast.
 
