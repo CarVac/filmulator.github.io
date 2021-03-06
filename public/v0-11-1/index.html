@@ -58,14 +58,39 @@
         <div class="content container">
             
 <div class="post">
-  <h1 class="post-title">Download Filmulator</h1>
-  <span class="post-date">2020-07-04</span>
-  <p>This is the latest stable version of Filmulator:</p>
+  <h1 class="post-title">Filmulator version 0.11.1</h1>
+  <span class="post-date">2021-03-06</span>
+  <p>Now announcing Filmulator version 0.11.1!</p>
+<h2 id="filmulate">Filmulate</h2>
+<ul>
+<li>White balance can be sampled from a spot on the image. It will be remembered for that camera until overwritten or the program is closed. You can apply those saved white balance parameters to other photos taken by the same model of camera. In addition, you can also save manually chosen white balance parameters.</li>
+<li>Filmulator now indicates more clearly that a photo has been saved by showing a brief notification over the image view.</li>
+<li>Saving images on NFS network shares now no longer crashes Filmulator.</li>
+<li>EXIF data for ISO and shutter speed is now written correctly to TIFF files.</li>
+<li>The lens correction dropdown tooltip now gets properly translated.</li>
+<li>The minimum crop area is set to 20 pixels on a side to prevent crashes.</li>
+<li>The escape key now cancels the lens selection box.</li>
+</ul>
+<h2 id="import">Import</h2>
+<ul>
+<li>It is now possible to import from UNC file paths on Windows (those without a drive letter).</li>
+<li>It is now possible to import in place from a directory containing &quot;DCIM&quot;. You do have to override the warning to do so, however.</li>
+</ul>
+<h2 id="general">General</h2>
+<ul>
+<li>After updating Lensfun, the user is now prompted to restart Filmulator.</li>
+<li>Now with Portuguese translations, thanks to Juliano Serra.</li>
+<li>When using a raw file as an argument to launch Filmulator, it now opens directly to the Filmulate tab with that image selected.</li>
+<li>Windows builds should now correctly handle non-ASCII characters.</li>
+<li>Cryptographic signatures are now provided for verifying downloads. Download the version you want and the corresponding .sig file from the GitHub release page, then run <code>gpg --verify [filename].sig [filename]</code>.</li>
+</ul>
+<p>Builds are available for Linux and Windows, but still no MacOS builds are available at this time. Please get in touch if you can help set up CI for MacOS builds.</p>
+<p>Downloads:</p>
 <ul>
 <li><a href="https://github.com/CarVac/filmulator-gui/releases/download/v0.11.1/Filmulator_v0.11.1.AppImage">Filmulator v0.11.1 Linux AppImage</a></li>
 <li><a href="https://github.com/CarVac/filmulator-gui/releases/download/v0.11.1/Filmulator_v0.11.1.exe">Filmulator v0.11.1 Windows Installer</a></li>
 </ul>
-<p>You can get nightly builds <a href="https://discuss.pixls.us/t/filmulator-nightly-builds-now-for-windows-and-linux/12838/1">here</a>.</p>
+<p>You can discuss the release <a href="https://discuss.pixls.us/t/filmulator-v0-11-1-released/23877">here on our official forum</a> or <a href="https://www.reddit.com/r/Filmulator/">on our subreddit</a>.</p>
 
 </div>
 
