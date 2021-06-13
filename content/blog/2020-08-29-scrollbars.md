@@ -1,6 +1,6 @@
 +++
 title = "Scrollbars in Filmulator"
-page_template = "blogpage.html"
+template = "blogpage.html"
 aliases = ["scrollbars"]
 +++
 
