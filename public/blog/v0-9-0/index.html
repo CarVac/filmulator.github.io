@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+      <!-- Enable responsiveness on mobile devices-->
+      <!-- viewport-fit=cover is to support iPhone X rounded corners and notch in landscape-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, viewport-fit=cover">
+
+      <title>Filmulator</title>
+      <meta name="description" content="Filmulator, a simple-to-use open-source raw photo editor">
+
+      <!-- CSS -->
+      <link rel="stylesheet" href="https:&#x2F;&#x2F;filmulator.org&#x2F;print.css" media="print">
+      <link rel="stylesheet" href="https:&#x2F;&#x2F;filmulator.org&#x2F;poole.css">
+      <link rel="stylesheet" href="https:&#x2F;&#x2F;filmulator.org&#x2F;hyde.css">
+
+      
+
+      
+      
+    </head>
+
+    <body class="theme-base-09 ">
+        
+            <div class="sidebar">
+                <div class="container ">
+                    <div class="sidebar-about">
+                        
+                            <a href="https:&#x2F;&#x2F;filmulator.org"><img class="mainicon" src="/images/filmulator512icon.png" alt = "Filmulator icon"></a>
+                            <!--<a href="https:&#x2F;&#x2F;filmulator.org"><h1>Filmulator</h1></a>-->
+                            
+                            <p class="lead">A simple raw photo editor based on the process of developing film</p>
+                            
+                        
+                    </div>
+
+                    <ul class="sidebar-nav">
+                        
+                        
+                        <li class="sidebar-nav-item"><a href="&#x2F;blog&#x2F;">Blog</a></li>
+                        
+                        <li class="sidebar-nav-item"><a href="&#x2F;download&#x2F;">Download</a></li>
+                        
+                        <li class="sidebar-nav-item"><a href="https:&#x2F;&#x2F;discuss.pixls.us&#x2F;filmulator">Forum</a></li>
+                        
+                        <li class="sidebar-nav-item"><a href="https:&#x2F;&#x2F;github.com&#x2F;CarVac&#x2F;filmulator-gui&#x2F;wiki">User manual</a></li>
+                        
+                        <li class="sidebar-nav-item"><a href="https:&#x2F;&#x2F;github.com&#x2F;CarVac&#x2F;filmulator-gui">GitHub project</a></li>
+                        
+                        
+                    </ul>
+                </div>
+            </div>
+        
+
+        <div class="content container">
+            
+<div class="post">
+  <h1 class="post-title">Filmulator version 0.9.0</h1>
+  <p>It's been quite a while since our last actual release, over two years, but we're now proud to present Filmulator Version 0.9.0, with tons of new features and improvements.</p>
+<h2 id="ui-tweaks">UI tweaks</h2>
+<ul>
+<li>The tabs look more like tabs than buttons. Inactive tabs have grayed-out text, and the active tab is outlined in orange.</li>
+<li>We now have icons, such as a proper reset icon, a warning icon in the case of erroneous input, and icons for background brightness, crop, and image rotation buttons. This replaces text, saving space in the UI.</li>
+<li>The Import tab itself now shows the progress bar while currently importing, so that you can view progress while working on other images.</li>
+<li>Scrolling has been made much more consistent-feeling, and all scrolling views now feature scrollbars.</li>
+<li>Keyboard shortcuts were added for switching tabs (ctrl/cmd-#), rating images (x, 0-5), switching between images in the queue (left/right), cropping (c), changing the editing background brightness (b), and saving a jpeg (ctrl/cmd-s).</li>
+<li>The calendar (which has been buggy) has been removed</li>
+</ul>
+<h2 id="importing">Importing</h2>
+<ul>
+<li>Time zones are now handled correctly on importing if the camera's time zone does not match the importing computer's time zone.</li>
+<li>Importing from a directory with multiple raw-containing subdirectories now works correctly.</li>
+</ul>
+<h2 id="organize">Organize</h2>
+<ul>
+<li>You can now filter by minimum and maximum rating.</li>
+<li>Rating also goes to -1 to signify images marked for forgetting.</li>
+<li>You can now enqueue all images currently listed in the organize view.</li>
+</ul>
+<h2 id="queue">Queue</h2>
+<ul>
+<li>You can now rate images with an X (-1) for forgetting.</li>
+</ul>
+<h2 id="processing">Processing</h2>
+<ul>
+<li>There is now a raw histogram, letting you easily evaluate how well you exposed all of your images.</li>
+<li>You can now iterate Auto CA correction for maximum correction.</li>
+<li>We now have Lensfun-based profiled lens corrections for chromatic aberration, vignetting, and distortion, with a slick UI that lets you set your preferences for every camera/lens combination.</li>
+<li>Highlight recovery now uses a faster, more robust algorithm.</li>
+<li>There's now a Shadow Rolloff Point tool that adds an effect like a film toe, making shadows more contrasty.</li>
+<li>You can now convert images to monochrome, with a channel mixer to get the look you want.</li>
+</ul>
+<h2 id="features">Features</h2>
+<ul>
+<li>CR3 support (partial)</li>
+</ul>
+<p>Plus many other performance improvements and bug fixes!</p>
+<p>Builds are available for Linux and Windows, but while it can be compiled on MacOS no builds are available at this time. Please get in touch if you can help set up CI for MacOS builds.</p>
+<p>Downloads:</p>
+<ul>
+<li><a href="https://github.com/CarVac/filmulator-gui/releases/download/v0.9.0/Filmulator_v0.9.0.AppImage">Filmulator v0.9.0 Linux AppImage</a></li>
+<li><a href="https://github.com/CarVac/filmulator-gui/releases/download/v0.9.0/Filmulator_v0.9.0.exe">Filmulator v0.9.0 Windows Installer</a></li>
+</ul>
+<p>You can discuss the release <a href="https://discuss.pixls.us/t/filmulator-v0-9-0-released/20297">here on our official forum</a> or <a href="https://www.reddit.com/r/Filmulator/">on our subreddit</a>.</p>
+
+</div>
+
+
+        </div>
+
+    </body>
+
+</html>
