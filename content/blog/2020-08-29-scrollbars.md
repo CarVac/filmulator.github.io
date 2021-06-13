@@ -1,5 +1,6 @@
 +++
 title = "Scrollbars in Filmulator"
+date = 2020-08-29
 template = "blogpage.html"
 aliases = ["scrollbars"]
 +++
