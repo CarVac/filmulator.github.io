@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+      <!-- Enable responsiveness on mobile devices-->
+      <!-- viewport-fit=cover is to support iPhone X rounded corners and notch in landscape-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, viewport-fit=cover">
+
+      <title>Filmulator</title>
+      <meta name="description" content="Filmulator, a simple-to-use open-source raw photo editor">
+
+      <!-- CSS -->
+      <link rel="stylesheet" href="https://filmulator.org/print.css" media="print">
+      <link rel="stylesheet" href="https://filmulator.org/poole.css">
+      <link rel="stylesheet" href="https://filmulator.org/hyde.css">
+
+      <!-- high res favicon (favicon.io)-->
+      <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+      <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+      <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+      <link rel="manifest" href="/site.webmanifest">
+
+      
+
+      
+      
+    </head>
+
+    <body class="theme-base-09 ">
+        
+            <div class="sidebar">
+                <div class="container ">
+                    <div class="sidebar-about">
+                        
+                            <a href="https:&#x2F;&#x2F;filmulator.org"><img class="mainicon" src="/images/filmulator512icon.png" alt = "Filmulator icon"></a>
+                            <!--<a href="https:&#x2F;&#x2F;filmulator.org"><h1>Filmulator</h1></a>-->
+                            
+                            <p class="lead">A simple raw photo editor based on the process of developing film</p>
+                            
+                        
+                    </div>
+
+                    <ul class="sidebar-nav">
+                        
+                        
+                        <li class="sidebar-nav-item"><a href="&#x2F;blog&#x2F;">Blog</a></li>
+                        
+                        <li class="sidebar-nav-item"><a href="&#x2F;download&#x2F;">Download</a></li>
+                        
+                        <li class="sidebar-nav-item"><a href="https:&#x2F;&#x2F;discuss.pixls.us&#x2F;filmulator">Forum</a></li>
+                        
+                        <li class="sidebar-nav-item"><a href="https:&#x2F;&#x2F;github.com&#x2F;CarVac&#x2F;filmulator-gui&#x2F;wiki">User manual</a></li>
+                        
+                        <li class="sidebar-nav-item"><a href="https:&#x2F;&#x2F;github.com&#x2F;CarVac&#x2F;filmulator-gui">GitHub project</a></li>
+                        
+                        
+                    </ul>
+                </div>
+            </div>
+        
+
+        <div class="content container">
+            
+<div class="post">
+  <h1 class="post-title">Filmulator version 0.12.0</h1>
+  <span class="post-date">2026-04-04</span>
+  <p>Now announcing Filmulator 0.12.0!</p>
+<h1 id="headline-features">Headline Features</h1>
+<ul>
+<li>macOS Arm64 builds</li>
+<li>Noise Reduction</li>
+<li>Highlight Crosstalk: controlled desaturation of extremely bright saturated colors</li>
+</ul>
+<h1 id="other-features">Other Features</h1>
+<h2 id="filmulation">Filmulation</h2>
+<ul>
+<li>Fix black level on many Panasonic cameras</li>
+<li>When beginning cropping when the image is scaled to fit, it will zoom out a bit to show the top and bottom crop handles.</li>
+<li>Add an explanation that you can zoom in or out by scrolling, and that you can pan around.</li>
+<li>Make sampling a custom white balance not automatically store it.</li>
+<li>If no matching lenses are found, instruct the user to download lens corrections in Settings.</li>
+<li>Fix behavior when camconst.json has not been downloaded.</li>
+<li>Fix white balance completely failing on 26MP Fuji X cameras in extreme circumstances.</li>
+<li>Fix white levels for extended low ISOs.</li>
+<li>Fix monochrome raw handling.</li>
+<li>Properly hide tools that should be unavailable depending on raw type.</li>
+<li>Fix raw histogram scale not being properly cached.</li>
+<li>Adjust range of exposure compensation.</li>
+<li>Make tool sliders show their default with a bold dot; color weights in the monochrome conversion also have 0 and 1 marked.</li>
+<li>Fix Lensfun loading.</li>
+<li>Fix crop edge drags (hold ctrl, drag in, release ctrl, drag out).</li>
+</ul>
+<h2 id="import">Import</h2>
+<ul>
+<li>Make it possible to import from symlinked folders and files.</li>
+</ul>
+<h2 id="queue">Queue</h2>
+<ul>
+<li>Fix bug that blocked rating changes when switching image via keyboard.</li>
+</ul>
+<h2 id="general">General</h2>
+<ul>
+<li>Add help button that makes the explanatory tooltips appear immediately throughout Filmulator.</li>
+<li>Fix a few broken tooltips.</li>
+<li>Fix tooltips running off the bottom of the window.</li>
+<li>Make settings reset to their defaults instead of their previous values.</li>
+<li>Make a reset all button in the Settings tab in case the scale got screwed up.</li>
+<li>For any continuous slider, add an explanation to the tooltip for how to open the precise input dial.</li>
+</ul>
+<h1 id="regressions">Regressions</h1>
+<p>We need help updating the existing translations (DE and pt_BR). More translations would be appreciated!</p>
+<p>Downloads:</p>
+<ul>
+<li><a rel="external" href="https://github.com/CarVac/filmulator-gui/releases/download/v0.12.0/Filmulator-macOS-arm64-osx.dmg">Filmulator v0.12.0 macOS arm64 dmg</a></li>
+<li><a rel="external" href="https://github.com/CarVac/filmulator-gui/releases/download/v0.12.0/Filmulator-x86_64.AppImage">Filmulator v0.12.0 Linux x86_64 AppImage</a></li>
+<li><a rel="external" href="https://github.com/CarVac/filmulator-gui/releases/download/v0.12.0/FilmulatorSetup-x86_64.exe">Filmulator v0.12.0 Windows x86_64 Installer</a></li>
+</ul>
+<p>You can discuss the release <a rel="external" href="https://discuss.pixls.us/t/filmulator-0-12-0-released/56961">here on our official forum</a></p>
+
+</div>
+
+
+        </div>
+
+    </body>
+
+</html>
