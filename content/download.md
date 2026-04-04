@@ -6,7 +6,8 @@ page_template = "page.html"
 
 This is the latest stable version of Filmulator:
 
-* [Filmulator v0.11.1 Linux AppImage](https://github.com/CarVac/filmulator-gui/releases/download/v0.11.1/Filmulator_v0.11.1.AppImage)
-* [Filmulator v0.11.1 Windows Installer](https://github.com/CarVac/filmulator-gui/releases/download/v0.11.1/Filmulator_v0.11.1.exe)
+* [Filmulator v0.12.0 macOS arm64 dmg](https://github.com/CarVac/filmulator-gui/releases/download/v0.12.0/Filmulator-macOS-arm64-osx.dmg)
+* [Filmulator v0.12.0 Linux x86_64 AppImage](https://github.com/CarVac/filmulator-gui/releases/download/v0.12.0/Filmulator-x86_64.AppImage)
+* [Filmulator v0.12.0 Windows x86_64 Installer](https://github.com/CarVac/filmulator-gui/releases/download/v0.12.0/FilmulatorSetup-x86_64.exe)
 
-You can get nightly builds [here](https://discuss.pixls.us/t/filmulator-nightly-builds-now-for-windows-and-linux/12838/1).
+Check the [GitHub Releases page](https://github.com/CarVac/filmulator-gui/releases) for any nightly builds.
